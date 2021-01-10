@@ -63,14 +63,14 @@ my_parser = argparse.ArgumentParser(description='Download a Github repo\ngit-rd 
 
 # Add the arguments
 my_parser.add_argument('Owner',
-                       metavar='owner',
-                       type=str,
-                       help='the owner of the Github repo')
+                        metavar='owner',
+                        type=str,
+                        help='the owner of the Github repo')
 
 my_parser.add_argument('Repo',
-                       metavar='repo',
-                       type=str,
-                       help='the Github repo')
+                        metavar='repo',
+                        type=str,
+                        help='the Github repo')
 
 my_parser.add_argument("--path", nargs="?", default="./")
 
